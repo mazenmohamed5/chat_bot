@@ -1,0 +1,182 @@
+body{
+    font-family: "Raleway", sans-serif;  
+}
+
+
+#home{
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-image:url(/images/mainBackground.jpg);
+    background-size: 100% 100%;
+
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+#questionInput{
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow:10 15 15 rgba(0,0,0,0.5);
+    height:100px;
+    width: 600px;
+    padding:0px 15px;
+
+
+}
+
+#message{
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 400px;
+    padding:0 20px;
+}
+
+#responseField{
+    height: 400px;
+    width:600px;
+    border-radius:15px;
+    box-shadow: 10 15 15 rgba(0,0,0,0.5);
+    background-color: aliceblue;
+    padding: 0px 15px;
+    position: relative;
+    
+}
+
+
+.btn:hover{
+    background-color: rgb(7, 91, 216);
+    transition:all 2s;
+}
+
+
+
+
+/*Contact*/
+
+.contactUs{
+    background-image: url(/images/contactBG.jfif);
+    background-size: 100% 100%;
+    height: 800px;
+}
+
+#contactArea{
+
+    height:600px;
+    display: flex;
+    align-items: center;
+
+}
+
+#contactInput{
+    background-color: aliceblue;
+    width: 500px;
+    position:absolute;
+    top: 180px;
+    right: 80px ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    box-shadow: 10 15 15 rgba(0,0,0,0.5);
+}
+#contactForm{
+    width: 400px;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 20px 0;
+    border-radius: 30px;
+}
+
+
+
+.personalInfo{
+    
+    width: 400px;
+    position: absolute;
+    left: 230px;
+    top: 270px;
+    
+}
+.img-fluid{
+    width: 40px;
+    height: 40px;
+}
+
+
+.input-group{
+    width: 600px;
+    height: 50px;
+    margin: auto;
+}
+
+.contact{
+    margin-top: 200px;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+.alternativeInfo ul li{
+    margin: 0px 15px;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: large;
+    cursor: pointer;
+    background-color: antiquewhite;
+    
+}
+
+.alternativeInfo ul li:hover{
+    background-color: rgb(33, 68, 133);
+    transition: all .8s ease-in-out;
+    color: white;
+}
+
+#contactMessage{
+    height: 200px;
+}
+
+
+.fa-solid{
+    color:black;
+}
+
+
+@media screen and (max-width: 768px) {
+    #ContactArea {
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+    }
+    #contactInput, .personalInfo {
+        width: 100%; 
+        padding: 15px; 
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .form-group input {
+        width: 100%; 
+    }
+    .alternativeInfo {
+        font-size: 14px; 
+    }
+}
