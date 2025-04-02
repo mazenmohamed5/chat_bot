@@ -1,0 +1,74 @@
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT</title>
+    <!--Styles-->
+    <link rel="icon" href="/images/logo.png">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <section id="home" class="home d-flex justify-content-center align-items-center">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="/images/logo.png" class="img-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+
+        <div class="caption text-center">
+          <h1 class="title m-5 text-light">Talk to me</h1>
+        </div>
+        <div id="questionInput" class="d-flex justify-content-center align-items-center m-auto">
+          <input type="text" id="message" placeholder="Type Your question">
+          <button id="Btn" class="btn btn-primary ms-2">Submit</button>
+        </div>
+
+        <div id="responseField" class="m-auto mt-3 d-flex justify-content-center align-items-center">
+          <p class="text-center">Ask whatever you want</p>
+
+        </div>
+
+      </div>
+
+      
+    </section>
+    
+    
+    <!-- Axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.8.4/axios.min.js" integrity="sha512-2A1+/TAny5loNGk3RBbk11FwoKXYOMfAK6R7r4CpQH7Luz4pezqEGcfphoNzB7SM4dixUoJsKkBsB6kg+dNE2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Bootstrap js libraries-->
+    <script src="/js/jquery-3.7.1.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
